@@ -4,14 +4,23 @@
     "private": true,
     "main": "index.js",
     "scripts": {
-      "start": "node index.js"
+        "start": "node index.js"
     },
     "dependencies": {
-      "axios": "^1.4.0",
-      "express": "^4.18.2",
-      "body-parser": "^1.20.2",
-      "bullmq": "^2.11.0",
-      "ioredis": "^5.3.2",
-      "@octokit/rest": "^20.0.0"
-    }
-  }
+        "axios": "^1.4.0",
+        "express": "^4.18.2",
+        "body-parser": "^1.20.2",
+        "bullmq": "^4.10.4",
+        "ioredis": "^5.3.2",
+        "@octokit/rest": "^20.0.0"
+      }
+      ,
+    "description": "",
+    "directories": {
+        "test": "tests"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs"
+}
