@@ -1,0 +1,11 @@
+{
+    "name": "mapzy-super-ai",
+    "private": true,
+    "workspaces": ["backend"],
+    "scripts": {
+      "start:traycer": "node traycer/index.js",
+      "start:backend": "node backend/index.js",
+      "lint": "echo \"no lint configured\"",
+      "test": "echo \"no tests yet\""
+    }
+  }
